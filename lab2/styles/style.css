@@ -1,6 +1,7 @@
 body {
   margin:auto;
   width:80%;
+
 }
 
 header, section, article, nav, aside, footer, div {
@@ -8,5 +9,6 @@ header, section, article, nav, aside, footer, div {
   border: 1px dotted #000;
   padding: 10px;
   margin: 10px;
-  .warning{font-weight:bold;}
 }
+
+.warning{font-weight:bold;}
