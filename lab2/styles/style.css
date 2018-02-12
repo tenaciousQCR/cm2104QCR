@@ -11,7 +11,8 @@ header, section, article, nav, aside, footer, div {
 }
 
 .warning{font-weight:bold;}
+
 #SiteLogo{
-  height: 200;
-  width: auto;
+  height: 100;
+  width: 100;
 }
