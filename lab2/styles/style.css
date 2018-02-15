@@ -10,7 +10,13 @@ header, section, article, nav, aside, footer, div {
   margin: 10px;
 }
 
-.warning{font-weight:bold;}
+.warning{
+  font-weight:bold;
+}
+
+#SiteTitle{
+  float: right;
+}
 
 #SiteLogo{
   height: 50%;
