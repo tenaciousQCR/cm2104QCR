@@ -14,9 +14,10 @@ header, section, article, nav, aside, footer, div {
   font-weight:bold;
 }
 
-#SiteTitle{}
+#SiteTitle{
+  float:right;}
 
 #SiteLogo{
   height: 25%;
-  width: 50%;
+  width: 25%;
 }
