@@ -12,6 +12,7 @@ header, section, article, nav, aside, footer, div {
 
 nav li{
   display: inline-block;
+  border: 1px solid #000;
 }
 
 .warning{
@@ -23,8 +24,8 @@ nav li{
 }
 
 #SiteLogo{
-  height: 25%;
-  width: 25%;
+  height: 75px;
+  width: 150px;
 }
 
 .flex-container{
