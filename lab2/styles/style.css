@@ -15,9 +15,15 @@ header, section, article, nav, aside, footer, div {
 }
 
 #SiteTitle{
-  float:right;}
+}
 
 #SiteLogo{
   height: 25%;
   width: 25%;
+}
+
+.flex-container{
+  display:-webkit-flex;
+  display:flex;
+  flex-direction: row;
 }
