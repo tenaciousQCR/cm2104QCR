@@ -29,10 +29,16 @@ nav li{
   width: 150px;
 }
 
-#goLower{
-  height: 25%;
-  width: 25%;
+#mainImage{
+  width: 50%;
 }
+
+#goLower{
+  height: 100%;
+  width: 100%;
+}
+
+
 
 .flex-container{
   display:-webkit-flex;
