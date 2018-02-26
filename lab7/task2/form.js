@@ -1,5 +1,6 @@
 function main () {
-	var a b
+	var a;
+	var b;
 	var c;
 
 	a = 10;
@@ -10,8 +11,6 @@ function main () {
 
 	document.writeln(c);
 }
-
-
 
 // function main () {
 // 	var a, b;
