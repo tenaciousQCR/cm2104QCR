@@ -11,18 +11,7 @@ function main () {
 	document.writeln(c);
 }
 
-document.getElementById()
-searchbox = ???;
 
-searchvalue = ???;
-
-if(???){
-	return true;
-}
-else{
-	alert("please search for something jackass");
-	return false;
-}
 
 // function main () {
 // 	var a, b;
