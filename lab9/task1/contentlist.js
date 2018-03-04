@@ -1,3 +1,15 @@
+$(function(){
+	// 'main' function called when page is loaded and ready
+
+	// complete the following using jQuery
+
+	// 1. find the addcontent button in task-two.html
+	// 2. add an event listener for 'click' events
+	// 3. assign the addContent() function to the click event
+	$("#addcontent").click(function() {
+		addContent();
+	})
+});
 
 function addContent () {
 	// add a list of items to the content div
@@ -11,15 +23,8 @@ function addContent () {
 	};
 	items_html += "</ul>";
 
-	// using javascript
+	// using jQuery
 	// 1. find the content div
 	// 2. modify its html attribute by adding items_html
-	function addContent() {
-	 var element = document.getElementById('content');
-	 //element.innerHTML = items_html;
-	 var newPara = element.createElement("p");
-	 var text = element.createTextNode(items_html);
-	 newPara.appendChild(text);
-	 document.body.appendChild(newPara);
-	}
+	$("#content").html(items_html);
 }
