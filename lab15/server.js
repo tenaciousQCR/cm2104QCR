@@ -34,7 +34,6 @@ app.post('/quotes', function (req, res) {
     res.redirect('/')
   })
 })
-
 app.post('/search', function(req, res) {
   db.collection('quotes').find(req.body).toArray(function(err, result) {
     if (err) throw err;
@@ -44,7 +43,7 @@ app.post('/search', function(req, res) {
       output += "<h3>" + result[i].name + "</h3>"
       output += "<p>" + result[i].quote + "</p>"
       output += "</div>"
-});
-}
-  res.send(output);
+    }
+    res.send(output);
+  });
 });
